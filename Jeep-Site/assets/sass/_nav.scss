@@ -1,0 +1,63 @@
+
+.nav{
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient( 0deg, #000,#333 60%  );
+	align-items: center;
+
+	ul{
+		display: flex;
+		justify-content: space-around;
+		height: 100%;
+
+	}
+
+	form{
+		width: 39.92647059%;
+		position: absolute;
+		left: 23.23529412%;
+		height: 60px;
+	}
+
+	li{
+		color: $body-text-color;
+		font-family: $font;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		
+	}
+
+
+#logo{
+    width: 137px;
+    height: 14%;
+    background-image: url(../img/sprite_nav.png);
+    position: absolute;
+    /* margin-right: 17%; */
+    background-repeat: no-repeat;
+    background-position: 139%;
+    background-position-x: 41%;
+    background-position-y: 26%;
+    left: 14%;
+	
+}
+
+#barcode-icon{
+	width: 68px;
+    height: 23%;
+    background-image: url(../img/sprite_nav.png);
+    position: absolute;
+    /* margin-right: 17%; */
+    background-repeat: no-repeat;
+    background-position: 139%;
+    background-position-x: 57%;
+    background-position-y: 26%;
+    right: 16.25%;
+}
+}
+
+
+//8375
+

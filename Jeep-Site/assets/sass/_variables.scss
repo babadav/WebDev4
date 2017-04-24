@@ -1,0 +1,10 @@
+@mixin maxwh {
+	width: 100%;
+	height: 100%;
+
+}
+
+@include maxwh;
+
+$body-text = #a0a09e;
+$font = arial,helvetica,sans-serif;
