@@ -103,7 +103,7 @@ body , html{
     display: flex;
     flex-direction: column;
     left: 0%;
-    top: -14%;
+    top: -13%;
     width: 93%;
     margin-left: 3.294289898%;
     margin-right: 3.294289898%;
@@ -118,6 +118,14 @@ body , html{
     	.award-pic{
     		position: absolute;
     		left: 30%;
+
+    		img{
+    			width: 80%;
+    		}
+    	}
+
+    	p{
+    		margin-bottom: .5%;
     	}
 }
 
