@@ -4,7 +4,13 @@ body , html{
 	height: 100%;
 	background-color: #222222
 }
-.hero-p2{
+
+a{
+	text-decoration: none;
+	list-style-type: none;
+	color: $body-text;
+}
+.hero__p2{
 	width: 100%;
 	height: 500px;
 	background-image: url("../img/wrangler-main.jpg");
@@ -14,18 +20,18 @@ body , html{
 	background-size: cover;
 
 
-		.hero-text-wrap{
+		.hero__text-wrap{
 
 			margin-top: 35px;
 			margin-left: 60px;
 			font-family: $font;
 
-			.large-text{
+			.hero__large-text{
 				font-size: 42px;
 				width: 35%;
 			}
 	
-			.smaller-text{
+			.hero__smaller-text{
 				font-size: 22px;
 			}
 	
@@ -43,14 +49,14 @@ body , html{
 		}
 	}
 
-.jeep-description-wrap{
+.jeep-description__wrap{
 	background-color: white;
     width: 93%;
     margin-left: 3.294289898%;
     margin-right: 3.294289898%;
     border-radius: 8px;
 
-	.jeep-description{
+	.jeep-description__label{
 		width: 100%;
 		height: 233px;
 		display: flex;
@@ -74,17 +80,17 @@ body , html{
 				width: 73%;
 			}
 	
-			.sales-price{
+			.jeep-description__sales-price{
 			 margin-top: 25px;
    			 margin-left: 3%;
 
 			}
 	
-			.lease-price{
+			.jeep-description__lease-price{
 				margin-top: 25px;
 			}
 	
-			.classic-img{
+			.jeep-description__classic-img{
 				position: absolute;
 			    right: 6%;
 			    top: 86%;
@@ -94,7 +100,7 @@ body , html{
 		}
 	}
 	
-.award{
+.award__{
 	width: 100%;
     height: 91px;
     background-image: url(../img/awards-background.jpg);
@@ -115,7 +121,7 @@ body , html{
     		font-weight: bold;
     	}
 
-    	.award-pic{
+    	.award__pic{
     		position: absolute;
     		left: 30%;
 

@@ -1,25 +1,25 @@
-.nav {
+.nav__ {
   display: flex;
   width: 100%;
   height: 60px;
   background: linear-gradient(0deg, #000, #333 60%);
   align-items: center; }
-  .nav ul {
+  .nav__ ul {
     display: flex;
     justify-content: space-around;
     height: 100%; }
-  .nav form {
+  .nav__ form {
     width: 39.92647059%;
     position: absolute;
     left: 23.23529412%;
     height: 60px; }
-  .nav li {
+  .nav__ li {
     color: #a0a09e;
     font-family: arial, helvetica, sans-serif;
     height: 100%;
     display: flex;
     align-items: center; }
-  .nav #logo {
+  .nav__ #nav__logo {
     width: 137px;
     height: 14%;
     background-image: url(../img/sprite_nav.png);
@@ -30,7 +30,7 @@
     background-position-x: 41%;
     background-position-y: 26%;
     left: 14%; }
-  .nav #barcode-icon {
+  .nav__ #nav__barcode-icon {
     width: 68px;
     height: 23%;
     background-image: url(../img/sprite_nav.png);
@@ -42,31 +42,31 @@
     background-position-y: 26%;
     right: 16.25%; }
 
-.hero {
+.hero__ {
   width: 100%;
   height: 88%;
   display: block;
   background-image: url(../img/jeep-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
-  .hero .container-wrapper {
+  .hero__ .hero__container-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     justify-content: space-around; }
-  .hero .hero-sub-cont {
+  .hero__ .hero__sub-cont {
     width: 310px;
     height: 200px; }
-    .hero .hero-sub-cont img {
+    .hero__ .hero__sub-cont img {
       width: 100%;
       height: 100%;
       padding-bottom: 10%; }
-  .hero .large-box {
+  .hero__ .large-box {
     width: 430px;
     height: 200px; }
-    .hero .large-box img {
+    .hero__ .large-box img {
       width: 100%;
       height: 100%;
       padding-bottom: 5.5%; }
@@ -109,7 +109,12 @@ body, html {
   height: 100%;
   background-color: #222222; }
 
-.hero-p2 {
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #a0a09e; }
+
+.hero__p2 {
   width: 100%;
   height: 500px;
   background-image: url("../img/wrangler-main.jpg");
@@ -117,53 +122,53 @@ body, html {
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover; }
-  .hero-p2 .hero-text-wrap {
+  .hero__p2 .hero__text-wrap {
     margin-top: 35px;
     margin-left: 60px;
     font-family: arial, helvetica, sans-serif; }
-    .hero-p2 .hero-text-wrap .large-text {
+    .hero__p2 .hero__text-wrap .hero__large-text {
       font-size: 42px;
       width: 35%; }
-    .hero-p2 .hero-text-wrap .smaller-text {
+    .hero__p2 .hero__text-wrap .hero__smaller-text {
       font-size: 22px; }
-    .hero-p2 .hero-text-wrap h1 {
+    .hero__p2 .hero__text-wrap h1 {
       color: #FEFFFF;
       margin-bottom: 20px; }
-    .hero-p2 .hero-text-wrap p {
+    .hero__p2 .hero__text-wrap p {
       color: #FEFFFF;
       width: 23%; }
 
-.jeep-description-wrap {
+.jeep-description__wrap {
   background-color: white;
   width: 93%;
   margin-left: 3.294289898%;
   margin-right: 3.294289898%;
   border-radius: 8px; }
-  .jeep-description-wrap .jeep-description {
+  .jeep-description__wrap .jeep-description__label {
     width: 100%;
     height: 233px;
     display: flex;
     font-family: arial, helvetica, sans-serif; }
-    .jeep-description-wrap .jeep-description h1 {
+    .jeep-description__wrap .jeep-description__label h1 {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 3%; }
-    .jeep-description-wrap .jeep-description h2 {
+    .jeep-description__wrap .jeep-description__label h2 {
       font-size: 27px; }
-    .jeep-description-wrap .jeep-description h5 {
+    .jeep-description__wrap .jeep-description__label h5 {
       font-size: 12px;
       width: 73%; }
-    .jeep-description-wrap .jeep-description .sales-price {
+    .jeep-description__wrap .jeep-description__label .jeep-description__sales-price {
       margin-top: 25px;
       margin-left: 3%; }
-    .jeep-description-wrap .jeep-description .lease-price {
+    .jeep-description__wrap .jeep-description__label .jeep-description__lease-price {
       margin-top: 25px; }
-    .jeep-description-wrap .jeep-description .classic-img {
+    .jeep-description__wrap .jeep-description__label .jeep-description__classic-img {
       position: absolute;
       right: 6%;
       top: 86%; }
 
-.award {
+.award__ {
   width: 100%;
   height: 91px;
   background-image: url(../img/awards-background.jpg);
@@ -179,14 +184,14 @@ body, html {
   border-radius: 8px;
   justify-content: center;
   align-items: center; }
-  .award .bold-award {
+  .award__ .bold-award {
     font-weight: bold; }
-  .award .award-pic {
+  .award__ .award__pic {
     position: absolute;
     left: 30%; }
-    .award .award-pic img {
+    .award__ .award__pic img {
       width: 80%; }
-  .award p {
+  .award__ p {
     margin-bottom: .5%; }
 
 html {
